@@ -3,6 +3,7 @@
 # platform: osx-arm64
 # created-by: conda 24.9.2
 anyio=4.7.0=pyhd8ed1ab_0
+anywidget=0.9.18=pypi_0
 appnope=0.1.2=py310hca03da5_1001
 argon2-cffi=21.3.0=pyhd8ed1ab_0
 argon2-cffi-bindings=21.2.0=py310h80987f9_1
@@ -23,14 +24,14 @@ brotli-bin=1.1.0=hd74edd7_2
 brotli-python=1.0.9=py310h313beb8_9
 bzip2=1.0.8=h99b78c6_7
 c-ares=1.19.1=hb547adb_0
-ca-certificates=2025.2.25=hca03da5_0
+ca-certificates=2025.6.15=hbd8a1cb_0
 cached-property=1.5.2=hd8ed1ab_1
 cached_property=1.5.2=pyha770c72_1
 cairo=1.16.0=h302bd0f_5
-catboost=1.2.3=py310hca03da5_0
-certifi=2025.4.26=py310hca03da5_0
+certifi=2025.6.15=pyhd8ed1ab_0
 cffi=1.17.1=py310h3eb5a62_1
 charset-normalizer=3.3.2=pyhd8ed1ab_0
+click=8.2.1=pypi_0
 comm=0.2.1=pyhd8ed1ab_0
 contourpy=1.3.1=py310h48ca7d4_0
 cycler=0.11.0=pyhd8ed1ab_0
@@ -54,6 +55,7 @@ fqdn=1.5.1=pyhd8ed1ab_1
 freetype=2.13.3=h47d26ad_0
 fribidi=1.0.10=h1a28f6b_0
 gdk-pixbuf=2.42.10=h969f7ef_2
+gensim=4.3.3=pypi_0
 gettext=0.21.0=hbdbcc25_2
 glib=2.78.4=h313beb8_0
 glib-tools=2.78.4=h313beb8_0
@@ -72,7 +74,6 @@ idna=3.7=pyhd8ed1ab_0
 imbalanced-learn=0.13.0=pyhd8ed1ab_0
 importlib-metadata=8.7.0=pyhe01879c_1
 importlib_resources=6.5.2=pyhd8ed1ab_0
-iniconfig=2.1.0=pypi_0
 ipykernel=6.29.5=pyh57ce528_0
 ipython=8.30.0=pyh707e725_0
 ipywidgets=8.1.5=pyhd8ed1ab_1
@@ -151,6 +152,7 @@ nbconvert-pandoc=7.16.6=hed9df3c_0
 nbformat=5.10.4=pyhd8ed1ab_1
 ncurses=6.4.20240210=h078ce10_0
 nest-asyncio=1.6.0=pyhd8ed1ab_1
+nltk=3.9.1=pypi_0
 notebook=7.3.2=pyhd8ed1ab_0
 notebook-shim=0.2.4=pyhd8ed1ab_1
 numexpr=2.10.1=py310h5d9532f_0
@@ -158,7 +160,7 @@ numpy=1.26.4=py310h3b2db8e_0
 numpy-base=1.26.4=py310ha9811e2_0
 openjpeg=2.5.2=hba36e21_1
 openldap=2.6.4=h9dd3a51_0
-openssl=3.0.16=h02f6b3c_0
+openssl=3.5.1=h81ee809_0
 overrides=7.4.0=pyhd8ed1ab_0
 packaging=24.2=pyhd8ed1ab_2
 pandas=2.2.3=py310hcf29cfe_0
@@ -175,12 +177,12 @@ pip=25.1.1=pyh8b19718_0
 pixman=0.40.0=h1a28f6b_0
 pkgutil-resolve-name=1.3.10=pyhd8ed1ab_2
 platformdirs=4.3.7=pyh29332c3_0
-plotly=6.0.1=py310hd096484_0
-pluggy=1.6.0=pypi_0
+plotly=6.2.0=pypi_0
 prometheus_client=0.21.1=pyhd8ed1ab_0
 prompt-toolkit=3.0.43=pyha770c72_0
 prompt_toolkit=3.0.43=hd8ed1ab_0
 psutil=5.9.0=py310h80987f9_1
+psygnal=0.14.0=pypi_0
 pthread-stubs=0.3=h1a28f6b_1
 ptyprocess=0.7.0=pyhd8ed1ab_1
 pure_eval=0.2.2=pyhd8ed1ab_0
@@ -192,7 +194,6 @@ pyparsing=3.2.0=pyhd8ed1ab_2
 pyqt=6.7.1=py310h313beb8_1
 pyqt6-sip=13.9.1=py310h80987f9_1
 pysocks=1.7.1=pyha55dd90_7
-pytest=8.4.1=pypi_0
 python=3.10.16=hb885b13_1
 python-dateutil=2.9.0post0=py310hca03da5_2
 python-fastjsonschema=2.20.0=pyhd8ed1ab_0
@@ -215,12 +216,13 @@ qtwebchannel=6.7.3=h99fb74b_0
 qtwebsockets=6.7.3=h99fb74b_0
 readline=8.2=h92ec313_1
 referencing=0.30.2=pyhd8ed1ab_0
+regex=2024.11.6=pypi_0
 requests=2.32.3=pyhd8ed1ab_1
 rfc3339-validator=0.1.4=pyhd8ed1ab_1
 rfc3986-validator=0.1.1=pyh9f0ad1d_0
 rpds-py=0.22.3=py310h2aea54e_0
 scikit-learn=1.6.1=py310h313beb8_0
-scipy=1.15.3=py310hb81b3df_0
+scipy=1.13.1=pypi_0
 seaborn=0.13.2=hd8ed1ab_3
 seaborn-base=0.13.2=pyhd8ed1ab_3
 send2trash=1.8.2=pyhd1c38e8_0
@@ -228,6 +230,7 @@ setuptools=78.1.1=pyhff2d567_0
 sip=6.10.0=py310h313beb8_0
 six=1.17.0=pyhd8ed1ab_0
 sklearn-compat=0.1.3=py310hca03da5_0
+smart-open=7.3.0.post1=pypi_0
 sniffio=1.3.0=pyhd8ed1ab_0
 soupsieve=2.5=pyhd8ed1ab_2
 sqlite=3.45.3=hf2abe2d_0
@@ -239,6 +242,7 @@ tinycss2=1.4.0=pyhd8ed1ab_0
 tk=8.6.14=h6ba3021_0
 tomli=2.0.1=pyhd8ed1ab_0
 tornado=6.5=py310h80987f9_0
+tqdm=4.67.1=pypi_0
 traitlets=5.14.3=pyhd8ed1ab_1
 types-python-dateutil=2.9.0.20250516=pyhd8ed1ab_0
 typing-extensions=4.12.2=hd8ed1ab_1
@@ -254,6 +258,7 @@ webencodings=0.5.1=pyhd8ed1ab_3
 websocket-client=1.8.0=pyhd8ed1ab_1
 wheel=0.45.1=pyhd8ed1ab_1
 widgetsnbextension=4.0.13=pyhd8ed1ab_1
+wrapt=1.17.2=pypi_0
 xorg-libxau=1.0.12=h5505292_0
 xorg-libxdmcp=1.1.5=hd74edd7_0
 xz=5.6.4=h9a6d368_0

@@ -1,7 +1,7 @@
-name: csca-5622-supervised-learning
+name: csca-5632-bbc-news
 channels:
-  - defaults
   - anaconda
+  - defaults
   - conda-forge
   - https://repo.anaconda.com/pkgs/main
   - https://repo.anaconda.com/pkgs/r
@@ -27,12 +27,11 @@ dependencies:
   - brotli-python=1.0.9=py310h313beb8_9
   - bzip2=1.0.8=h99b78c6_7
   - c-ares=1.19.1=hb547adb_0
-  - ca-certificates=2025.2.25=hca03da5_0
+  - ca-certificates=2025.6.15=hbd8a1cb_0
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
   - cairo=1.16.0=h302bd0f_5
-  - catboost=1.2.3=py310hca03da5_0
-  - certifi=2025.4.26=py310hca03da5_0
+  - certifi=2025.6.15=pyhd8ed1ab_0
   - cffi=1.17.1=py310h3eb5a62_1
   - charset-normalizer=3.3.2=pyhd8ed1ab_0
   - comm=0.2.1=pyhd8ed1ab_0
@@ -161,7 +160,7 @@ dependencies:
   - numpy-base=1.26.4=py310ha9811e2_0
   - openjpeg=2.5.2=hba36e21_1
   - openldap=2.6.4=h9dd3a51_0
-  - openssl=3.0.16=h02f6b3c_0
+  - openssl=3.5.1=h81ee809_0
   - overrides=7.4.0=pyhd8ed1ab_0
   - packaging=24.2=pyhd8ed1ab_2
   - pandas=2.2.3=py310hcf29cfe_0
@@ -178,7 +177,6 @@ dependencies:
   - pixman=0.40.0=h1a28f6b_0
   - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_2
   - platformdirs=4.3.7=pyh29332c3_0
-  - plotly=6.0.1=py310hd096484_0
   - prometheus_client=0.21.1=pyhd8ed1ab_0
   - prompt-toolkit=3.0.43=pyha770c72_0
   - prompt_toolkit=3.0.43=hd8ed1ab_0
@@ -221,7 +219,6 @@ dependencies:
   - rfc3986-validator=0.1.1=pyh9f0ad1d_0
   - rpds-py=0.22.3=py310h2aea54e_0
   - scikit-learn=1.6.1=py310h313beb8_0
-  - scipy=1.15.3=py310hb81b3df_0
   - seaborn=0.13.2=hd8ed1ab_3
   - seaborn-base=0.13.2=pyhd8ed1ab_3
   - send2trash=1.8.2=pyhd1c38e8_0
@@ -267,6 +264,14 @@ dependencies:
   - zstandard=0.23.0=py310h1a4646a_1
   - zstd=1.5.6=hb46c0d2_0
   - pip:
-      - iniconfig==2.1.0
-      - pluggy==1.6.0
-      - pytest==8.4.1
+      - anywidget==0.9.18
+      - click==8.2.1
+      - gensim==4.3.3
+      - nltk==3.9.1
+      - plotly==6.2.0
+      - psygnal==0.14.0
+      - regex==2024.11.6
+      - scipy==1.13.1
+      - smart-open==7.3.0.post1
+      - tqdm==4.67.1
+      - wrapt==1.17.2
